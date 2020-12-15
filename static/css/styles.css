@@ -158,6 +158,18 @@ body{
   margin-top: 60px;
 }
 
+#about .cell {
+  float: left;
+  width: 33%;
+  padding: 20px;
+}
+
+#about .row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* Section: Projects */
 #projects {
   padding: 5rem 0;
