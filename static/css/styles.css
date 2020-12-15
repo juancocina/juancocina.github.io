@@ -161,10 +161,41 @@ body{
 /* Section: Projects */
 #projects {
   padding: 5rem 0;
+  background-color: #D7D7D7;
 }
 
 #projects h2 {
   text-align: center;
   font-size: 3rem;
   margin-bottom: 3rem;
+}
+
+#projects h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#projects p.lead {
+  margin-bottom: 1rem;
+}
+
+#projects .cell {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+#projects .row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#projects .projects-image img {
+  flex: 1;
+  display: block;
+  margin: auto;
+  width: 90%;
+  border-radius: 5%;
+  margin-top: 10px;
 }
