@@ -30,7 +30,7 @@ body{
 /* Navbar */
 #navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background: #333;
   color: #fff;
   padding: 1.5rem 8rem;
