@@ -64,3 +64,50 @@ body{
 #navbar li a:hover {
   background-color: #3693ff;
 }
+
+/* Showcase Area */
+#showcase {
+  background: url('../images/background.jpg') no-repeat center center/cover;
+  height: 90vh;
+}
+
+.showcase-content {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 81px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+
+.showcase-content h1{
+  font-size: 4rem;
+  margin-bottom: 10rem;
+}
+
+.showcase-content .btn {
+  font-size: 1.5rem;
+  padding: 1rem 10rem;
+  transition: color 0.3s, background 0.3s;
+}
+
+.showcase-content .btn:hover {
+  background: #3694ff;
+  color: #fff
+}
+
+.btn {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border: 1px solid;
+  border-radius: 10px;
+  font-weight: bold;
+}
