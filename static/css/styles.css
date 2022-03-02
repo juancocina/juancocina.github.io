@@ -7,7 +7,7 @@
 }
 
 html{
-  font-size; 20px;
+  
   scroll-behavior: smooth;
 }
 
@@ -27,6 +27,7 @@ body{
 
 .text-primary {
   color: #3694ff;
+  text-align: center;
 }
 
 /* Navbar */
@@ -49,6 +50,9 @@ body{
 }
 
 #navbar h2 a {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 8rem;
   color: #fff;
   text-decoration: none;
 }
@@ -57,7 +61,7 @@ body{
   text-decoration: none;
   color: #fff;
   padding: 1rem;
-  font-size 1.3rem;
+  /*font-size 1.3rem;*/
   margin: 0 0.5rem;
   border-radius: 5px;
   transition: background-color: 0.3s;
@@ -259,7 +263,7 @@ body{
   color: #000;
   background-color: #b5b5b5;
   padding: 1rem;
-  font-size 1.3rem;
+  /*font-size 1.3rem;*/
   margin: 0 0.5rem;
   border-radius: 5px;
   transition: background-color: 0.5s;
